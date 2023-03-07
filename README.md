@@ -2,7 +2,7 @@
 ## [Paper(TBD)](xxx) | [Video Youtube(TBD)](xxx) | [Project Page](https://skype-line.github.io/projects/X-Avatar/) | [Data](xxx)
 Official Repository for CVPR 2023 paper [*X-Avatar: Expressive Human Avatars*](xxxx). 
 Code will be released soon.
-<img src="assets/teaser.png" width="800" height="223"/> 
+<img src="assets/teaser.png" width="800" height="333"/> 
 
 ```
 @article{guo2023vid2avatar,
