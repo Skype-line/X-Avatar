@@ -1,6 +1,8 @@
 # X-Avatar: Expressive Human Avatars
-## [Paper](https://arxiv.org/abs/2303.04805) | [Video Youtube (TBD)](xxx) | [Project Page](https://skype-line.github.io/projects/X-Avatar/) | [Data (TBD)](xxx)
+## [Paper](https://arxiv.org/abs/2303.04805) | [Video Youtube (TBD)](xxx) | [Project Page](https://skype-line.github.io/projects/X-Avatar/) | [Data](https://forms.gle/rHZgZnmUJnFuZUi48)
 Official Repository for CVPR 2023 paper [*X-Avatar: Expressive Human Avatars*](https://arxiv.org/abs/2303.04805). 
+
+[**NEW**] Access to data is available now [here](https://forms.gle/rHZgZnmUJnFuZUi48)!
 
 Code will be released soon.
 
