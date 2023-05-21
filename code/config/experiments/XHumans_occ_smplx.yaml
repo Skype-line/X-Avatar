@@ -1,0 +1,37 @@
+defaults:
+  - base_exp
+  
+expname: XHumans_smplx
+load_init: true
+model:
+  model_type: smplx
+  colornet:
+    train_color: true
+    d_in: 6
+    d_out: 3
+    multires: 4
+    depth: 8
+    width: 256
+    skip_layer: [4]
+    cond_layer: [0]
+    cond_dim: 528
+    dim_cond_embed: -1
+    weight_norm: true
+    geometric_init: false
+  network:
+    d_in: 3
+    d_out: 1
+    depth: 8
+    width: 512
+    multires: 4
+    cond_layer: [0]
+    dim_cond_embed: 16
+    representation: occ
+    softmax_mode: max
+  deformer:
+    network:
+      depth: 5
+  optim:
+    lr: 1e-3
+  lambda_vert_normal: 1
+  

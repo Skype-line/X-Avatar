@@ -1,0 +1,31 @@
+name: xavatar
+channels:
+  - anaconda
+  - conda-forge
+  - pytorch
+  - pytorch3d
+  - defaults
+dependencies:
+  - python=3.7
+  - pytorch=1.7.0
+  - torchvision=0.8.1
+  #- cudatoolkit=11.0
+  - iopath
+  - fvcore
+  - pytorch3d==0.6.1
+  - pip
+  - pip:
+    - chumpy==0.70
+    - scikit-image==0.15.0
+    - trimesh==3.13.0
+    - wandb
+    - tqdm
+    - pytorch-lightning==1.3.3
+    - torchmetrics==0.6.0
+    - opencv-python==4.6.0.66
+    - hydra-core==1.1.1
+    - Cython==0.29.20
+    - open3d==0.17.0
+    - aitviewer==1.9.0
+    - smplx==0.1.28
+    - Rtree==1.0.1

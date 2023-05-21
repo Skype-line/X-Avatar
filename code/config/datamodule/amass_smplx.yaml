@@ -1,0 +1,17 @@
+dataloader:
+  _target_: lib.dataset.amass.AMASSDataModule
+  dataset_path: /path/to/AMASS/dataset
+  use_pca: false
+  num_pca_comps: 0
+  flat_hand_mean: false
+  num_workers: 10
+  batch_size: 4
+processor:
+  _target_: lib.dataset.amass.AMASSDataProcessor
+  points_per_frame: 6000
+  representation: occ
+  category_sample: true
+  sampler:
+    _target_: lib.model.sample.PointInSpace
+    global_sigma: 1.8
+    local_sigma: 0.01

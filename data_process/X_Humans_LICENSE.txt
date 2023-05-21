@@ -1,0 +1,39 @@
+==============================================================================
+License for AIT-ETH Zurich generated dataset
+==============================================================================
+ETH Zurich
+Raemistrasse 101,
+8092 Zurich, 
+Switzerland
+
+Copyright (c) 2023 by the AIT members. All rights reserved.
+
+Developed by:
+    AIT Lab 
+    ETH Zurich
+    https://ait.ethz.ch/
+
+
+Terms Of Use for X_Humans Dataset
+
+These terms regulate the conditions by which you (the "USER") may access and use the data (the "DATASET") provided by ETH Zurich, Raemistrasse 101, 8092 Zurich, Switzerland, on the download website https://xhumans.ait.ethz.ch (the "WEBSITE").
+
+The USER must fill out this request only with an institutional e-mail address. Requests from non-institutional e-mail accounts will be rejected without further notice. ETH Zurich collects USER’s information to grant this license and comply with GDPR, and the USER must inform ETH Zurich if the contact information changes.
+
+The DATASET shall only be downloaded if the USER agrees to the following terms:
+
+1. ETH Zurich grants the USER the non-exclusive, non-transferable, and non-sub-licensable license for using the DATASET. Permission is hereby granted, free of charge, to any person or company obtaining a copy of this software/dataset and associated files directly from the WEBSITE. The DATASET remains the property of ETH Zurich and/or its licensors and is made available as a service to the research community for non-commercial academic purposes. ETH Zurich retains the right to disclose and advertise the DATASET use by any licensee.
+
+2. This license prohibits commercial use of parts or whole of the provided DATASET (including code, models, and data). This prohibition includes using the DATASET for the partial or total training of neural networks or other artificial intelligence systems for commercial use. Using the provided DATASET to promote a commercial entity or product or in any other manner that directly or indirectly results in commercial gains is strictly prohibited. The USER agrees to cite the DATASET in any publication based on, or that results from the use of the information contained in the DATASET.
+
+3. Lease, sub-license, sell, package, or distribute parts or whole of the provided DATASET, the original or any updated version, as is or as part of other software or dataset, is prohibited. This ban includes redistributing the original or converted model parameters or any part of the provided model, code, and data to third parties via any platform or public repository.
+
+4. Any use of the DATASET beyond non-commercial academic purposes is expressly prohibited, including, but not limited to, its use for identity recognition; for visual surveillance; to create “deep-fakes” or other misleading or deceptive content; or to create pornography or other inappropriate content. The USER shall further not carry out any procedures with the DATASET (linking, comparison, processing) with which any identity of a person could be derived. The de-anonymization of the DATASET or any action that allows re-identifying the participants in the DATASET is prohibited in any form. The USER agrees to comply with all applicable international and national laws, statutes, regulations, and guidelines, especially those concerning data protection.
+
+5. The DATASET may be modified at any moment to have deleted, changed, or added information, generating an updated version of the DATASET. For example, if a participant in the DATASET asks to have their data removed. The USER will be contacted and requested to update their local copy of the DATASET in such a case. In addition, upon the first request by ETH Zurich, the right to use the DATASET will end immediately, and the USER will destroy any DATASET copy they may have and confirm the deletion to ETH Zurich.
+
+6. The DATASET is provided “as is” without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement. In no event shall the authors or licensor be liable for any direct, indirect, incidental, special, exemplary, or consequential damages, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the DATASET or the use of it. The licensor does not warrant any quality of the DATASET beyond the stated data-quality documented and reviewed in the DATASET documentation. In particular, the licensor does not warrant the accuracy and completeness of the DATASET, neither its suitability for the USER’s intended purpose. Using the DATASET is at the own risk of the USER.
+
+7. These terms of use shall be construed, governed, interpreted, and enforced according to the laws of Switzerland without any regard to International Private Law. All disputes arising out of or concerning the access and use of the DATASET, as well as these terms of use, shall be brought before the competent court of the city of Zurich.
+
+By using the DATASET I confirm I have read and understood the above license terms and agree to them. I also confirm that my institution is not on the US Entity List,  https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/entity-list 

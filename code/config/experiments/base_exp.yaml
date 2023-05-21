@@ -1,0 +1,69 @@
+expname: XHumans_smplx
+subject: debug
+epoch: last
+resume: false
+load_init: true
+
+trainer:
+  gradient_clip_val: 0.1
+  check_val_every_n_epoch: 3
+  deterministic: true
+  max_steps: 45000
+  gpus: 1
+
+model:
+  model_type: smplx
+  # color MLP
+  colornet:
+    train_color: true
+    d_in: 6
+    d_out: 3
+    depth: 8
+    width: 256
+    multires: 0
+    skip_layer: []
+    cond_layer: [4]
+    dim_cond_embed: 8
+    weight_norm: true
+    geometric_init: true
+    bias: 1
+  # shape MLP
+  network:
+    d_in: 3
+    d_out: 1
+    depth: 8
+    width: 256
+    multires: 0
+    skip_layer: [4]
+    cond_layer: [4]
+    dim_cond_embed: 8
+    weight_norm: true
+    geometric_init: true
+    bias: 1
+    representation: occ
+    softmax_mode: max
+  deformer:
+    softmax_mode: hierarchical
+    # LBS MLP
+    network:
+      d_in: 3
+      depth: 4
+      width: 128
+      multires: 0
+      skip_layer: []
+      cond_layer: []
+      dim_cond_embed: 0
+      weight_norm: true
+      geometric_init: false
+      bias: 1
+  optim:
+    lr: 1e-3
+
+  soft_blend: 5
+  nepochs_pretrain: 3
+  lambda_bone_shape: 1
+  lambda_lbs_w: 10
+  lambda_vert_color: 1
+  lambda_vert_normal: 0.1
+  lambda_eikonal: 0.5
+

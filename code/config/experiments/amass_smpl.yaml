@@ -1,0 +1,24 @@
+defaults:
+  - base_exp
+
+expname: amass_smpl
+load_init: false
+model:
+  model_type: smpl
+  colornet:
+    train_color: false
+  network:
+    d_in: 3
+    d_out: 1
+    depth: 8
+    width: 256
+    multires: 0
+    cond_layer: [4]
+    dim_cond_embed: 8
+    representation: occ
+    softmax_mode: softmax
+  deformer:
+    network:
+      depth: 4
+  optim:
+    lr: 1e-3

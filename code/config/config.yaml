@@ -1,0 +1,19 @@
+hydra:
+  run:
+    dir: ../outputs/${expname}/${subject}
+
+defaults:
+  - _self_
+  - datamodule: XHumans_scan_smplx
+  - experiments: XHumans_occ_smplx
+
+expname: ${experiments.expname}
+subject: ${experiments.subject}
+
+demo:
+  motion_path: /path/to/demo (either a folder or a file contains SMPL(-X) params in .pkl)
+  resolution: 512
+  save_mesh: true
+  every_n_frames: 1
+  verbose: false
+  fast_mode: true

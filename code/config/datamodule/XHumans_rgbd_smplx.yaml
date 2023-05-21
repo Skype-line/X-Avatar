@@ -1,0 +1,18 @@
+dataloader:
+  _target_: lib.dataset.XHumans_rgbd.XHumansDataModule
+  dataset_path: /path/to/XHumans/dataset/person_ID
+  use_pca: false
+  num_pca_comps: 0
+  flat_hand_mean: false
+  num_workers: 10
+  batch_size: 1
+processor:
+  _target_: lib.dataset.XHumans_rgbd.XHumansDataProcessor
+  points_per_frame: 12000
+  representation: sdf
+  category_sample: true
+  sampler:
+    _target_: lib.model.sample.PointInSpace
+    global_sigma: 1.8
+    local_sigma: 0.0
+  

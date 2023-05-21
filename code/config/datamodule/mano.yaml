@@ -1,0 +1,17 @@
+dataloader:
+  _target_: lib.dataset.mano.MANODataModule
+  dataset_path: /path/to/MANO/dataset
+  use_pca: false
+  num_pca_comps: 0
+  flat_hand_mean: true
+  num_workers: 10
+  batch_size: 8
+processor:
+  _target_: lib.dataset.mano.MANODataProcessor
+  points_per_frame: 2000
+  representation: occ
+  category_sample: false
+  sampler:
+    _target_: lib.model.sample.PointInSpace
+    global_sigma: 1.8
+    local_sigma: 0.01
