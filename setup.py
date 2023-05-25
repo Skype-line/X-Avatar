@@ -23,7 +23,7 @@ numpy_include_dir = numpy.get_include()
 # mise (efficient mesh extraction)
 mise_module = Extension(
     "lib.libmise.mise",
-    sources=["lib/libmise/mise.pyx"],
+    sources=["code/lib/libmise/mise.pyx"],
 )
 
 # Gather all extension modules

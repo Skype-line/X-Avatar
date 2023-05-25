@@ -7,7 +7,7 @@
         "language": "c++",
         "name": "lib.libmise.mise",
         "sources": [
-            "lib/libmise/mise.pyx"
+            "code/lib/libmise/mise.pyx"
         ]
     },
     "module_name": "lib.libmise.mise"
@@ -861,7 +861,7 @@ static const char *__pyx_filename;
 
 
 static const char *__pyx_f[] = {
-  "lib/libmise/mise.pyx",
+  "code/lib/libmise/mise.pyx",
   "stringsource",
 };
 /* MemviewSliceStruct.proto */
