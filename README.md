@@ -1,5 +1,5 @@
 # X-Avatar: Expressive Human Avatars
-## [Project Page](https://skype-line.github.io/projects/X-Avatar/) | [Paper](https://arxiv.org/abs/2303.04805) | [Supmat](https://skype-line.github.io/projects/X-Avatar/static/doc/Expressive_Human_Avatars_Suppmat.pdf) | [Video](https://youtu.be/JniKF88aPcs) | [Data](https://forms.gle/rHZgZnmUJnFuZUi48)
+## [Project Page](https://skype-line.github.io/projects/X-Avatar/) | [Paper](https://arxiv.org/abs/2303.04805) | [SuppMat](https://skype-line.github.io/projects/X-Avatar/static/doc/Expressive_Human_Avatars_Suppmat.pdf) | [Video](https://youtu.be/JniKF88aPcs) | [Data](https://forms.gle/rHZgZnmUJnFuZUi48)
 
 
 <img src="assets/teaser.png" width="800" height="333"/> 
@@ -229,7 +229,7 @@ Here are more recent related human body reconstruction projects from our team:
 
 If you find our code, dataset or paper useful, please cite as
 ```
-@article{shen2023xavatar,
+@inproceedings{shen2023xavatar,
       title={X-Avatar: Expressive Human Avatars},
       author={Shen, Kaiyue and Guo, Chen and Kaufmann, Manuel and Zarate, Juan and Valentin, Julien and Song, Jie and Hilliges, Otmar},    
       journal   = {Computer Vision and Pattern Recognition (CVPR)},
