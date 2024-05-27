@@ -1,10 +1,10 @@
 # X-Avatar: Expressive Human Avatars
-## [Project Page](https://skype-line.github.io/projects/X-Avatar/) | [Paper](https://arxiv.org/abs/2303.04805) | [SuppMat](https://skype-line.github.io/projects/X-Avatar/static/doc/Expressive_Human_Avatars_Suppmat.pdf) | [Video](https://youtu.be/JniKF88aPcs) | [Data](https://forms.gle/rHZgZnmUJnFuZUi48)
+## [Project Page](https://skype-line.github.io/projects/X-Avatar/) | [Paper](https://arxiv.org/abs/2303.04805) | [SuppMat](https://skype-line.github.io/projects/X-Avatar/static/doc/Expressive_Human_Avatars_Suppmat.pdf) | [Video](https://youtu.be/JniKF88aPcs) | [Data](https://xhumans.ait.ethz.ch/)
 
 
 <img src="assets/teaser.png" width="800" height="333"/> 
 
-Official Repository for CVPR 2023 paper [*X-Avatar: Expressive Human Avatars*](https://arxiv.org/abs/2303.04805). We propose an animatible implicit human avatar model capable of capturing human body pose, hand pose, facial expressions, and appearance. X-Avatar can be created from 3D scans or RGB-D images. We also contribute a new dataset, called [X-Humans](https://forms.gle/rHZgZnmUJnFuZUi48), containing 233 sequences of high-quality textured scans from 20 participants, totalling about 35,500 data frames.
+Official Repository for CVPR 2023 paper [*X-Avatar: Expressive Human Avatars*](https://arxiv.org/abs/2303.04805). We propose an animatible implicit human avatar model capable of capturing human body pose, hand pose, facial expressions, and appearance. X-Avatar can be created from 3D scans or RGB-D images. We also contribute a new dataset, called [X-Humans](https://xhumans.ait.ethz.ch/), containing 233 sequences of high-quality textured scans from 20 participants, totalling about 35,500 data frames.
 
 
 # Getting Started
@@ -82,7 +82,7 @@ mv /path/to/init_model code/init_model
 <img src="assets/dataset_overview.png" width="800" height="333"/> 
 
 ### Prepare Datasets
-Download our [X-Humans](https://forms.gle/rHZgZnmUJnFuZUi48) dataset and preprocess the dataset. You can find more details about the dataset in [data_process/README.md](data_process/README.md).
+Download our [X-Humans](https://xhumans.ait.ethz.ch/) dataset and preprocess the dataset. You can find more details about the dataset in [data_process/README.md](data_process/README.md).
 ```
 python data_process/preprocess_XHumans.py --data_root=/path/to/XHumans/Dataset/{Person_ID}
 ```
